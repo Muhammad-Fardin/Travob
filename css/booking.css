@@ -1,0 +1,44 @@
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.heading-title {
+  text-align: center;
+  color: black;
+  margin: 3rem 0;
+  font-size: 2rem;
+}
+
+.booking .book-form {
+  padding: 2rem;
+  background: var(--bg-primary);
+}
+
+.booking .book-form .flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.booking .book-form .flex .inputBox {
+  flex: 1 1 30rem;
+}
+
+.booking .book-form .flex .inputBox input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-size: rem;
+  color: black;
+  text-transform: none;
+  margin-top: 1.5rem;
+  border: 1px solid black;
+}
+
+.booking .book-form .flex .inputBox span {
+  font-size: 1rem;
+}
+
+.booking .book-form .btn {
+  margin-top: 2rem;
+}

@@ -1,0 +1,51 @@
+.packages-main {
+  margin: 0 5vw;
+}
+.packages-main .box-container-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 3rem;
+}
+
+.packages-main .box-container-main .image {
+  height: 15rem;
+  overflow: hidden;
+}
+
+.packages-main .box-container-main .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 200ms linear;
+}
+
+.packages-main .box-container-main .box-main .content {
+  padding: 2rem;
+  text-align: center;
+}
+
+.packages-main .box-container-main .box-main .content a {
+  align-self: center;
+}
+
+.packages-main .box-container-main .box-main:nth-child(1),
+.packages-main .box-container-main .box-main:nth-child(2),
+.packages-main .box-container-main .box-main:nth-child(3),
+.packages-main .box-container-main .box-main:nth-child(4),
+.packages-main .box-container-main .box-main:nth-child(5),
+.packages-main .box-container-main .box-main:nth-child(6) {
+  display: inline-block;
+}
+
+.packages-main .box-container-main .box-main {
+  border: 1px solid black;
+  background-color: var(--bg-primary);
+  border-radius: 12px;
+  display: none;
+}
+
+.packages-heading {
+  font-size: 3rem;
+  text-align: center;
+  margin: 4rem 0;
+}
