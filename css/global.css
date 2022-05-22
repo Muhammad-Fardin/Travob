@@ -13,41 +13,7 @@
     #03d7a5 138.84%
   );
 }
-@keyframes fadeout {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-.loader {
-  background-color: #091d38;
-  width: 100vw;
-  height: 100vh;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
 
-.hide {
-  visibility: hidden;
-  display: none;
-}
-.fadein {
-  animation: fadein 1.5s linear forwards;
-}
-.fadeout {
-  animation: fadeout 1.5s linear forwards;
-}
 html::-webkit-scrollbar {
   width: 0.5rem;
 }
